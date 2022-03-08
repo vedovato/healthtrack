@@ -8,6 +8,35 @@ body {
 	background: #f4f4f4;
 }
 
+#wrapper {
+	background-color: white;
+	flex-direction: column;
+	display: flex;
+	height: 100vh;
+}
+
+#wrapper-inner {
+	background-color: green;
+	border-radius: 20px;
+	border: 1px solid #dfdfdf;
+	margin: 0 20px;
+}
+
+@media (min-width: 992px) {
+	#wrapper {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+	}
+
+	#inner-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+
+}
 
 
 /* MAXIAS
@@ -81,8 +110,6 @@ nav#app-nav {
 	display: flex;
 	align-items: center;
 	margin-bottom: 30px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #dfdfdf
 }
 
 nav#app-nav img {
@@ -93,5 +120,6 @@ nav#app-nav img {
 nav#app-nav h1 {
 	margin: 0 20px;
 	text-align: center;
+	font-size: 30px;
 	width: 100%;
 }

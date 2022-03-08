@@ -15,17 +15,19 @@
 <body>
     <main id="wrapper">
 
-        <nav id="app-nav" class="shadow p-2">
+        <!-- app header -->
+        <header id="app-nav" class="shadow-sm">
             <a href="index.html"><img src="./images/icon-back.png" alt="Voltar" /></a>
             <h1>Iniciar Sessão</h1>
-        </nav>
-
+        </header>
+        <!-- / app header -->
 
         <section id="inner-wrapper" class="container">
             <div class="col col-md-6 mx-auto d-flex flex-column">
                 <h2 class="mt-5">Vamos começar?</h2>
                 <p class="lead">Preencha os campos abaixo para iniciar sua sessão</p>
 
+                <!-- login form -->
                 <form action="onboarding1.html" class="mb-5">
                     <div class="form-floating my-2">
                         <input required type="email" class="form-control" id="email" placeholder="Seu email">
@@ -38,9 +40,11 @@
                     </div>
 
                     <div class="d-grid col-6 mt-4">
-                        <button class="btn btn-lg btn-primary shadow" type="submit">Continuar &rarr;</button>
+                        <button class="btn btn-lg btn-success btn-pill shadow" type="submit">Continuar
+                            &rarr;</button>
                     </div>
                 </form>
+                <!-- / login form -->
 
                 <!-- Social login buttons-->
                 <small class="separator-l">ou utilize suas redes sociais</small>

@@ -10,6 +10,19 @@ body {
 
 
 
+/* MAXIAS
+======================= */
+.separator-l:before {
+	width: 50px;
+	height: 2px;
+	content: " ";
+	display: inline-block;
+	margin: 0 10px 3px 0;
+	background: #ccc;
+}
+
+
+
 .radius-1 {
 	border-radius: 5px
 }
@@ -28,6 +41,15 @@ body {
 
 
 /* --------- */
+.social-inline {
+	display: flex;
+	justify-content: flex-around;
+}
+
+.social-inline li {
+	margin: 0 15px 0 0
+}
+
 .social-icons-list {
 	padding: 0
 }
@@ -59,6 +81,8 @@ nav#app-nav {
 	display: flex;
 	align-items: center;
 	margin-bottom: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dfdfdf
 }
 
 nav#app-nav img {

@@ -26,34 +26,41 @@
                     <h1>Iniciar Sessão</h1>
                 </nav>
 
-                <h1>Health Track</h1>
-                <p class="lead">Olá! Estavamos à sua espera! Utilize um dos métodos abaixo para fazer login abaixo ou
-                    cadastre-se grátis</p>
+                <h2 class="mt-5">Vamos começar?</h2>
+                <p class="lead">Preencha os campos abaixo para iniciar sua sessão</p>
+
+                <form action="onboarding1.html" class="mb-5">
+                    <div class="form-floating my-2">
+                        <input required type="email" class="form-control" id="email" placeholder="Seu email">
+                        <label for="email">Password</label>
+                    </div>
+
+                    <div class="form-floating my-2">
+                        <input required type="password" class="form-control" id="senha" placeholder="Senha">
+                        <label for="senha">Sua senha</label>
+                    </div>
+
+                    <div class="d-grid col-6 mt-4">
+                        <button class="btn btn-lg btn-primary shadow" type="submit">Continuar &rarr;</button>
+                    </div>
+                </form>
 
                 <!-- Social login buttons-->
-                <ul class="social-icons-list">
-                    <li>
-                        <a href="login-mail.html" class="p-3 border radius-4 link-dark social-button">
-                            <img src="./images/icon-email.png" />
-                            <span class="m-2">Utilizar Email e Senha</span>
-                        </a>
-                    </li>
+                <small class="separator-l">ou utilize suas redes sociais</small>
+                <ul class="social-icons-list social-inline">
                     <li>
                         <a href="login-social.html" class="p-3 border radius-4 link-dark social-button">
                             <img src="./images/icon-google.png" />
-                            <span class="m-2">Acessar com conta Google</span>
                         </a>
                     </li>
                     <li>
                         <a href="login-social.html" class="p-3 border radius-4 link-dark social-button">
                             <img src="./images/icon-facebook.png" />
-                            <span class="m-2">Acessar com conta Facebook</span>
                         </a>
                     </li>
                     <li>
                         <a href="login-social.html" class="p-3 border radius-4 link-dark social-button">
                             <img src="./images/icon-apple.png" />
-                            <span class="m-2">Acessar com Apple ID</span>
                         </a>
                     </li>
                 </ul>

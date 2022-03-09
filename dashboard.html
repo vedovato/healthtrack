@@ -24,49 +24,51 @@
 
         <section id="inner-wrapper" class="container">
             <div class="col col-md-6 mx-auto d-flex flex-column">
-                <h2 class="mt-5">Vamos começar?</h2>
-                <p class="lead">Preencha os campos abaixo para iniciar sua sessão</p>
+                <img style="height:auto; width:250px" class="mx-auto" src="./images/draw-welcome.png" />
 
-                <!-- login form -->
-                <form action="onboarding.html" class="mb-5">
-                    <div class="form-floating my-2">
-                        <input required type="email" class="form-control" id="email" placeholder="Seu email">
-                        <label for="email">Seu E-mail</label>
+                <h2 class="mt-4 text-center">Bom dia, Andrei!</h2>
+                <p class="lead text-center mb-5">Utilize os botões abaixo para navegar no seu HealthTrack</p>
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 mb-4">
+                        <div class="card-dashboard card-atv-fisica">
+                            <a href="#">
+                                <h3>Atividade Física </h3>
+                                <span>Registre todos os seus passos</span>
+                            </a>
+                        </div>
                     </div>
 
-                    <div class="form-floating my-2">
-                        <input required type="password" class="form-control" id="senha" placeholder="Senha">
-                        <label for="senha">Sua senha</label>
+                    <div class="col-xs-12 col-md-6 mb-4">
+                        <div class="card-dashboard card-weight">
+                            <a href="#">
+                                <h3>Peso &amp; Medidas</h3>
+                                <span>Mantenha seu diário atualizado</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-xs-12 col-md-6 mb-4">
+                        <div class="card-dashboard card-weight">
+                            <a href="#">
+                                <h3>Profissionais</h3>
+                                <span>Pesquise por especialidade</span>
+                            </a>
+                        </div>
                     </div>
 
-                    <div class="d-grid col-6 mt-4">
-                        <button class="btn btn-lg btn-success btn-pill shadow" type="submit">Continuar
-                            &rarr;</button>
+                    <div class="col-xs-12 col-md-6 mb-4">
+                        <div class="card-dashboard card-weight">
+                            <a href="#">
+                                <h3>Agenda</h3>
+                                <span>Veja seus horários</span>
+                            </a>
+                        </div>
                     </div>
-                </form>
-                <!-- / login form -->
 
-                <!-- Social login buttons-->
-                <small class="separator-l">ou utilize suas redes sociais</small>
-                <ul class="social-icons-list social-inline">
-                    <li>
-                        <a href="login-social.html" class="p-3 border radius-4 link-dark social-button">
-                            <img src="./images/icon-google.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="login-social.html" class="p-3 border radius-4 link-dark social-button">
-                            <img src="./images/icon-facebook.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="login-social.html" class="p-3 border radius-4 link-dark social-button">
-                            <img src="./images/icon-apple.png" />
-                        </a>
-                    </li>
-                </ul>
-                <!-- / Social login buttons-->
-            </div>
+                </div>
         </section>
     </main>
 </body>

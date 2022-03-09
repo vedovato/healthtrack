@@ -57,15 +57,12 @@ body {
 	background: #ccc;
 }
 
-
 /* ================ */
+
 .spinner-lg {
 	width: 50px;
 	height: 51px;
 }
-
-
-
 
 .radius-1 {
 	border-radius: 5px
@@ -83,8 +80,8 @@ body {
 	border-radius: 16px
 }
 
-
 /* --------- */
+
 .social-inline {
 	display: flex;
 	justify-content: flex-around;
@@ -138,4 +135,41 @@ body {
 	text-align: center;
 	font-size: 1.75rem;
 	width: 100%;
+}
+
+/* ================ */
+
+.card-dashboard {
+	background-color: seagreen;
+	border-radius: 15px;
+}
+
+.card-dashboard a {
+	display: block;
+	padding: 30px 20px;
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+}
+
+.card-dashboard a:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 15px;
+	transition: 0.3s;
+}
+
+.card-atv-fisica {
+	background-image: url('./images/draw-welcome.png');
+	background-repeat: no-repeat;
+	/* background-position: right top; */
+	background-position-x: 90px;
+	background-position-y: 20px;
+	background-size: cover;
+}
+
+.card-weight {
+	background-image: url('./images/draw-welcome.png');
+	background-repeat: no-repeat;
+	background-position-x: 90px;
+	background-position-y: 20px;
+	background-size: cover;
 }

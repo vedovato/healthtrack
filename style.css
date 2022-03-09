@@ -57,6 +57,24 @@ body {
 	background: #ccc;
 }
 
+.separator:before {
+	width: 30%;
+	height: 2px;
+	content: " ";
+	display: inline-block;
+	margin: 0 10px 3px 0;
+	background: #ccc;
+}
+
+.separator:after {
+	width: 30%;
+	height: 2px;
+	content: " ";
+	display: inline-block;
+	margin: 0 0 3px 10px;
+	background: #ccc;
+}
+
 /* ================ */
 
 .spinner-lg {

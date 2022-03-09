@@ -58,20 +58,20 @@ body {
 }
 
 .separator:before {
-	width: 30%;
+	width: 25%;
 	height: 2px;
 	content: " ";
 	display: inline-block;
-	margin: 0 10px 3px 0;
+	margin: 0 10px 5px 0;
 	background: #ccc;
 }
 
 .separator:after {
-	width: 30%;
+	width: 25%;
 	height: 2px;
 	content: " ";
 	display: inline-block;
-	margin: 0 0 3px 10px;
+	margin: 0 0 5px 10px;
 	background: #ccc;
 }
 
@@ -176,12 +176,11 @@ body {
 }
 
 .card-atv-fisica {
-	background-image: url('./images/draw-welcome.png');
+	background-image: url('./images/feature-atv.png');
 	background-repeat: no-repeat;
-	/* background-position: right top; */
-	background-position-x: 90px;
-	background-position-y: 20px;
-	background-size: cover;
+	background-position: 95% center;
+	background-size: auto;
+	background-color: royalblue
 }
 
 .card-weight {

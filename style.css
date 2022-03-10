@@ -39,16 +39,34 @@ body {
 
 }
 
+#app-nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	padding: 10px
+}
+
+#app-nav img {
+	width: 40px;
+	height: 40px;
+}
+
+#app-nav h1 {
+	margin: 0 20px;
+	text-align: center;
+	font-size: 1.75rem;
+	width: 100%;
+}
+
 /* ====================== */
+
 .btn-pill {
 	border-radius: 80px;
 	font-weight: bold;
 	padding: 18px;
 }
 
-
-/* MAXIAS
-======================= */
 .separator-l:before {
 	width: 50px;
 	height: 2px;
@@ -76,7 +94,22 @@ body {
 	background: #ccc;
 }
 
-/* ================ */
+.separator-timeline,
+.separator-timeline-mini {
+	width: 2px;
+	height: 60px;
+	border-left: 2px dashed #ddd;
+	margin: 20px auto;
+}
+
+.separator-timeline-mini {
+	height: 30px;
+}
+
+.card:hover {
+	background: #f0f1f1;
+	transition: -1.3s;
+}
 
 .spinner-lg {
 	width: 50px;
@@ -99,7 +132,7 @@ body {
 	border-radius: 16px
 }
 
-/* --------- */
+/* ====================== */
 
 .social-inline {
 	display: flex;
@@ -134,29 +167,7 @@ body {
 	height: 25px;
 }
 
-/* APP NAVIGATION
-======================= */
-#app-nav {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	margin-bottom: 30px;
-	padding: 10px
-}
-
-#app-nav img {
-	width: 40px;
-	height: 40px;
-}
-
-#app-nav h1 {
-	margin: 0 20px;
-	text-align: center;
-	font-size: 1.75rem;
-	width: 100%;
-}
-
-/* ================ */
+/* ====================== */
 
 .card-dashboard {
 	background-color: seagreen;
@@ -185,7 +196,7 @@ body {
 }
 
 .card-weight {
-	background-image: url('./images/feature-atv.png');
+	background-image: url('./images/feature-hist.png');
 	background-repeat: no-repeat;
 	background-position: 95% center;
 	background-color: seagreen;
@@ -193,7 +204,7 @@ body {
 }
 
 .card-professionals {
-	background-image: url('./images/feature-atv.png');
+	background-image: url('./images/feature-pro.png');
 	background-repeat: no-repeat;
 	background-position: 95% center;
 	background-color: royalblue;
@@ -201,9 +212,75 @@ body {
 }
 
 .card-calendar {
-	background-image: url('./images/feature-atv.png');
+	background-image: url('./images/feature-cal.png');
 	background-repeat: no-repeat;
 	background-position: 95% center;
 	background-color: coral;
 	background-size: auto;
+}
+
+/* ====================== */
+
+.distribute-inline {
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+}
+
+.distribute-inline li {
+	list-style: none;
+	text-align: center;
+}
+
+.distribute-inline a {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+}
+
+.distribute-inline a:hover,
+.distribute-inline a:focus {
+	border-radius: 10px;
+	background: #f1f1f1;
+	transition: 0.3s;
+}
+
+.distribute-inline img {
+	width: 70%;
+	height: auto;
+	margin-top: 8px;
+}
+
+/* ====================== */
+
+.list-item {
+	padding: 5px;
+}
+
+.list-item ul {
+	margin: 0;
+}
+
+.list-item li {
+	width: 100%;
+}
+
+.list-item a {
+	text-decoration: none;
+	color: #333;
+}
+
+.list-item small {
+	font-weight: bold;
+}
+
+.list-item span {
+	font-size: 18px;
+}
+
+.list-item img {
+	width: 20px;
+	height: auto;
+	margin-top: -5px;
 }
